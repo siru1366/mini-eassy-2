@@ -2,6 +2,16 @@
 
 This is a simple code review.  
 Firstly, we need to check out the design of overall the  design of the code.  
+```R
+#### Preamble ####
+# Purpose: Read in data from the 2022 Australian Election and make
+# a graph of the number of seats each party won.
+# Author: Rohan Alexander
+# Email: rohan.alexander@utoronto.ca
+# Date: 1 January 2023
+# Prerequisites: Know where to get Australian elections data.
+```
+At first, writing some comments in R is necessary, these codes are a good example. We need to write the purpose of the document, and the author with an email to contact. Date is also important.
 
 ```R
 #### Acquire ####
