@@ -14,6 +14,17 @@ Firstly, we need to check out the design of overall the  design of the code.
 At first, writing some comments in R is necessary, these codes are a good example. We need to write the purpose of the document, and the author with an email to contact. Date is also important.
 
 ```R
+#### Workspace setup ####
+install.packages("tidyverse")
+install.packages("janitor")
+```
+Next, it's essential to configure the workspace. This entails the installation and loading of required packages. While a package requires installation only once per computer, it must be loaded each time it is utilized. Specifically, for this scenario, we will utilize the tidyverse and janitor packages. Since this is their initial usage, installation is necessary, followed by loading each package as needed.
+
+
+
+
+
+```R
 #### Acquire ####
 toronto_shelters <- 
   # Each package is associated with a unique id found in the "For 
